@@ -7,11 +7,11 @@
 #include <Arduino.h>
 
 // ===== WIFI =====
-const char* ssid = "RIUAEMFI"; //"MEDIACOM-17073";
-const char* password = ""; //"NFR384Na54";
+const char* ssid = "WIFI";
+const char* password = "PASSWORD"; 
 
 // ===== GOOGLE SHEETS =====
-String url = "https://script.google.com/macros/s/AKfycbwsDNh_BOBE_yWu6DA_dfr1j7D32vDOgg4_g24_lpruGU0W1oF4xAjcp-Hwfz_a3yA77A/exec";
+String url = "url googlesheets";
 
 // ===== RFID =====
 #define SS_PIN 5
